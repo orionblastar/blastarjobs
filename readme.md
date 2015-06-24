@@ -4,6 +4,10 @@ It is PHP and MYSQL based so that it has a database backend to add, remove, and 
 
 For more information contact Orion Blastar at orionblastar@gmail.com
 
+Right now the project is in design phase. It will become a MVP proof of concept in due time.
+
+It might lack SSL until I can afford a certificate to test it out. But I hope to get the code to the level that it works and can crowdfund the money to polish it up and make it professional and ready for prime time.
+
 Listings include:
 
 Company Jobs Contact City State Remote
