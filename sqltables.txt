@@ -1,0 +1,37 @@
+This is a list of possible SQL defitions for the tables in MYSQL
+
+
+
+CREATE TABLE Companies
+(
+CompanyID int,
+Contact varchar(255),
+Jobs varchar(255),
+City varchar(255),
+State varchar(255)
+); 
+
+CREATE TABLE Users
+(
+UserID int,
+UserName varchar(255),
+Password varchar(255),
+Email varchar(255),
+URL varchar(255)
+); 
+
+CREATE TABLE Reviews
+(
+ReviewID int,
+Stars int,
+Subject varchar(255),
+Body varchar(255)
+); 
+
+CREATE TABLE Permissions
+(
+PermissionID int,
+UserID, Int,
+Admin Int,
+Note varchar(255)
+);
