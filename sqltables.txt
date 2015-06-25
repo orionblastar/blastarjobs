@@ -25,7 +25,8 @@ CREATE TABLE Reviews
 ReviewID int,
 Stars int,
 Subject varchar(255),
-Body varchar(255)
+Body varchar(255),
+IP varchar(255)
 ); 
 
 CREATE TABLE Permissions
@@ -34,4 +35,17 @@ PermissionID int,
 UserID, Int,
 Admin Int,
 Note varchar(255)
+);
+
+CREATE TABLE BannedDomains
+(
+BannedID int,
+Domain varchar(255)
+);
+
+CREATE TABLE BannedUsers
+(
+BannedID int,
+UserName varchar(255),
+IP varchar(255)
 );

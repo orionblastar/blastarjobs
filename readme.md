@@ -23,3 +23,5 @@ Reviews should follow like this:
 PostedBY Stars Subject Body
 
 Where PostedBy is the user name of the login account that made the rating, Stars is number of stars from 0 to 5, Subject is the subject of the message, and body is the body of the message.
+
+Each review will have the IP logged in case of problems. There will be a table to ban users by user name or IP and ban domain names for forbidden domains like goatse and other shock sites. Just in case trolls decide to mess with the listings and reviews.
